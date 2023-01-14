@@ -1,0 +1,141 @@
+header {
+  border-bottom: 1px solid #000;
+  background-color: aqua;
+}
+
+body {
+  background-color: wheat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.image {
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+  margin: 10px;
+  border-radius: 10px;
+  transition: all 0.5s ease;
+}
+
+.image:hover {
+  transform: scale(1.2);
+  box-shadow: 0px 0px 10px #000000;
+}
+
+.color-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.colorBtn {
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.colorBtn:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+#logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+
+#home, #signup, #login {
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+#home:hover, #signup:hover, #login:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+@media only screen and (min-width: 768px) {
+  .image {
+    width: 450px;
+    height: 270px;
+    margin: 20px;
+  }
+
+  #logo {
+  
+    width: 150px;
+    height: 150px;
+    margin-right: 50px;
+  }
+}
+h1 {
+  font-size: 3em;
+  font-weight: bold;
+  color: #000000;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: bold;
+  color: #000000;
+  margin-top: 50px;
+}
+
+p {
+  font-size: 1.5em;
+  color: #000000;
+  margin: 20px 0;
+  text-align: center;
+}
+
+nav button {
+  font-size: 1.2em;
+  color: #000000;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  background-color: #ffffff;
+  border: none;
+}
+
+nav button:hover {
+  color: #ffffff;
+  background-color: #00b300;
+}
